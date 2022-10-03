@@ -1,0 +1,79 @@
+@media only screen and (min-width: 768px) {
+  #et-info {
+    float: right;
+  }
+}
+@media only screen and (max-width: 767px) {
+  div#et-secondary-menu {
+    display: block;
+    margin-top: 0;
+    padding-top: 0.75em;
+  }
+  #et-secondary-menu > div.et_duplicate_social_icons > ul > li a {
+    display: block;
+    padding-bottom: 0.75em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+  div#et-secondary-menu {
+    display: block;
+    padding-top: 0.75em;
+  }
+}
+#top-header #et-info-phone a:hover,
+#top-header #et-info a:hover span#et-info-phone,
+#top-header #et-info a:hover span#et-info-email,
+#top-header #et-info #db-info-text a:hover,
+#top-header .et-social-icon a:hover,
+#top-header #et-secondary-nav a:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+#top-header #et-info #db-info-text a,
+#top-header #et-info #db-info-text a:hover,
+#top-header #et-info a span#et-info-phone,
+#top-header #et-info a:hover span#et-info-phone {
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  transition: color 0.5s;
+}
+#top-menu li li a:hover {
+  background-color: #d9d5e7;
+}
+#top-menu li.current-menu-item > a {
+  color: #000;
+}
+#top-menu li.current-menu-item > a:hover {
+  color: #2ea3f2;
+}
+#et-info-phone:hover {
+  opacity: 0.7;
+  -moz-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+@media only screen and (min-width: 981px) {
+  .et_header_style_left #et-top-navigation {
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+  }
+  .et_header_style_left .container {
+    display: table;
+  }
+  .et_header_style_left #et-top-navigation {
+    text-align: right;
+  }
+  .et_header_style_left #et-top-navigation > * {
+    text-align: left;
+  }
+  .et_header_style_left #top-menu-nav,
+  .et_header_style_left #et_top_search {
+    float: none;
+    display: inline-block;
+  }
+  .et_header_style_left #et_top_search {
+    vertical-align: top;
+    margin-top: 3px;
+  }
+}
