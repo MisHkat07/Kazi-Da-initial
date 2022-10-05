@@ -2500,7 +2500,7 @@
     input[type="text"],
     select,
     textarea {
-      background-color: #fff;
+      background-color: #eeefff;
       border: 1px solid #bbb;
       padding: 2px;
       color: #4e4e4e;
@@ -2567,7 +2567,7 @@
     }
 
     #main-content {
-      background-color: #fff;
+      background-color: #eeefff;
     }
 
     .container {
@@ -2962,7 +2962,7 @@
     }
 
     #wp-admin-bar-et-use-visual-builder:hover a:before {
-      color: #fff !important;
+      color: #eeefff !important;
     }
 
     #wp-admin-bar-et-use-visual-builder:hover a,
@@ -2971,7 +2971,7 @@
       -webkit-transition: background-color 0.5s ease;
       -moz-transition: background-color 0.5s ease;
       background-color: #7e3bd0 !important;
-      color: #fff !important;
+      color: #eeefff !important;
     }
 
     * html .clearfix,
@@ -3105,7 +3105,7 @@
       left: 50%;
       width: 50px;
       height: 50px;
-      background: #fff;
+      background: #eeefff;
       border-radius: 50px;
       margin: -25px 0 0 -25px;
       z-index: 999999;
@@ -3122,7 +3122,7 @@
       -webkit-box-shadow: 0 5px 10px rgba(41, 196, 169, 0.15);
       box-shadow: 0 5px 10px rgba(41, 196, 169, 0.15);
       background: #29c4a9;
-      color: #fff;
+      color: #eeefff;
       font-size: 14px;
       font-weight: 600;
       padding: 12px;
@@ -3264,7 +3264,7 @@
     .et_pb_bg_layout_dark h4,
     .et_pb_bg_layout_dark h5,
     .et_pb_bg_layout_dark h6 {
-      color: #fff !important;
+      color: #eeefff !important;
     }
 
     .et_pb_module.et_pb_text_align_left {
@@ -3835,7 +3835,7 @@
       .et_pb_bg_layout_dark_tablet h4,
       .et_pb_bg_layout_dark_tablet h5,
       .et_pb_bg_layout_dark_tablet h6 {
-        color: #fff !important;
+        color: #eeefff !important;
       }
 
       .et_pb_bg_layout_dark_tablet.et_pb_button,
@@ -3845,7 +3845,7 @@
       }
 
       .et_pb_bg_layout_dark_tablet .et_pb_forgot_password a {
-        color: #fff;
+        color: #eeefff;
       }
 
       .et_pb_module.et_pb_text_align_left-tablet {
@@ -3923,7 +3923,7 @@
       .et_pb_bg_layout_dark_phone h4,
       .et_pb_bg_layout_dark_phone h5,
       .et_pb_bg_layout_dark_phone h6 {
-        color: #fff !important;
+        color: #eeefff !important;
       }
 
       .et_pb_bg_layout_dark_phone.et_pb_button,
@@ -3933,11 +3933,11 @@
       }
 
       .et_pb_module .et_pb_bg_layout_dark_phone.et_pb_button {
-        color: #fff !important;
+        color: #eeefff !important;
       }
 
       .et_pb_bg_layout_dark_phone .et_pb_forgot_password a {
-        color: #fff;
+        color: #eeefff;
       }
 
       .et_pb_module.et_pb_text_align_left-phone {
@@ -6882,7 +6882,7 @@
       line-height: 23px;
       font-weight: 500;
       top: 0;
-      background-color: #fff;
+      background-color: #eeefff;
       width: 100%;
       -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
       box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -6915,7 +6915,7 @@
       padding: 20px 0;
       z-index: 9999;
       width: 240px;
-      background: #fff;
+      background: #eeefff;
       visibility: hidden;
       opacity: 0;
       border-top: 3px solid #2ea3f2;
@@ -7094,7 +7094,7 @@
       position: absolute;
       left: 0;
       padding: 5%;
-      background: #fff;
+      background: #eeefff;
       width: 100%;
       visibility: visible;
       opacity: 1;
@@ -7618,7 +7618,7 @@
       cursor: pointer;
       font-size: 30px;
       padding: 5px;
-      color: #fff;
+      color: #eeefff;
     }
 
     .et_pb_scroll_top:before {
@@ -7695,7 +7695,7 @@
 
     .et_pb_section {
       position: relative;
-      background-color: #fff;
+      background-color: #eeefff;
       background-position: 50%;
       background-size: 100%;
       background-size: cover;
@@ -9621,7 +9621,7 @@
       content: "\e09a";
       margin-right: 5px;
       font-size: 18px;
-      color: #ffff !important;
+      color: #eeefff !important;
       float: left;
       display: block;
       margin-top: 1px;
@@ -9632,15 +9632,25 @@
       content: "\e0aa";
       margin-right: 5px;
       font-size: 18px;
-      color: #ffff !important;
+      color: #eeefff !important;
       float: left;
       display: block;
       margin-top: 1px;
     }
 
     .bottom-nav {
+      display: flex;
+      justify-content: center;
       padding: 15px 0;
       text-align: center;
+      gap:20px;
+    }
+    @media only screen and (max-width: 980px) {
+      .bottom-nav {
+      display: flex;
+      flex-wrap: wrap;
+    }
+     
     }
 
     .footer-info {
@@ -9666,12 +9676,15 @@
       #et-footer-nav .container {
         width: 98%;
       }
+     
     }
 
     @media only screen and (max-width: 1140px) and (min-width: 479px) {
       #logo {
         max-width: 150px !important;
       }
+     
+
     }
 
     .single .et_pb_post {
@@ -11071,7 +11084,7 @@
                       </div>
                       <div class="et_pb_button_module_wrapper et_pb_button_2_wrapper et_pb_module">
                         <a class="et_pb_button et_pb_button_2 et_pb_bg_layout_light"
-                          href="https://www.KaziDa.com/web-design-services-kitchener/">LEARN MORE</a>
+                          href="#">LEARN MORE</a>
                       </div>
                     </div>
                     <div
@@ -11134,8 +11147,8 @@
                       <div class="et_pb_module et_pb_image et_pb_image_8 et_animated et-waypoint">
                         <span class="et_pb_image_wrap"><img width="854" height="853" alt
                             title="35346542_1880943495291773_6639186572442861568_n"
-                            data-srcset="https://www.KaziDa.com/wp-content/uploads/2021/04/35346542_1880943495291773_6639186572442861568_n.jpg 854w, https://www.KaziDa.com/wp-content/uploads/2021/04/35346542_1880943495291773_6639186572442861568_n-480x479.jpg 480w"
-                            data-src="https://www.KaziDa.com/wp-content/uploads/2021/04/35346542_1880943495291773_6639186572442861568_n.jpg"
+                            data-srcset="images/35346542_1880943495291773_6639186572442861568_n.jpg 854w, images/35346542_1880943495291773_6639186572442861568_n-480x479.jpg 480w"
+                            data-src="images/35346542_1880943495291773_6639186572442861568_n.jpg"
                             data-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 854px, 100vw"
                             class="wp-image-226038 lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
@@ -11177,8 +11190,8 @@
                       <div
                         class="et_pb_with_border et_pb_module et_pb_image et_pb_image_9 et_animated et_hover_enabled et-waypoint">
                         <span class="et_pb_image_wrap"><img width="400" height="400" alt title="mike"
-                            data-srcset="https://www.KaziDa.com/wp-content/uploads/2020/11/mike.jpg 400w, https://www.KaziDa.com/wp-content/uploads/2020/11/mike-300x300.jpg 300w, https://www.KaziDa.com/wp-content/uploads/2020/11/mike-150x150.jpg 150w"
-                            data-src="https://www.KaziDa.com/wp-content/uploads/2020/11/mike.jpg"
+                            data-srcset="images/mike.jpg 400w, images/mike-300x300.jpg 300w, images/mike-150x150.jpg 150w"
+                            data-src="images/mike.jpg"
                             data-sizes="(max-width: 400px) 100vw, 400px" class="wp-image-31601 lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
                               width="400" height="400" src="images/mike.jpg" alt title="mike" srcset="
@@ -11225,8 +11238,8 @@
                     <div class="et_pb_column et_pb_column_1_4 et_pb_column_24 et_pb_css_mix_blend_mode_passthrough">
                       <div class="et_pb_module et_pb_image et_pb_image_10 et_animated et-waypoint">
                         <span class="et_pb_image_wrap"><img width="2485" height="2215" alt title="black woman"
-                            data-srcset="https://www.KaziDa.com/wp-content/uploads/2021/09/black-woman.jpg 2485w, https://www.KaziDa.com/wp-content/uploads/2021/09/black-woman-1280x1141.jpg 1280w, https://www.KaziDa.com/wp-content/uploads/2021/09/black-woman-980x874.jpg 980w, https://www.KaziDa.com/wp-content/uploads/2021/09/black-woman-480x428.jpg 480w"
-                            data-src="https://www.KaziDa.com/wp-content/uploads/2021/09/black-woman.jpg"
+                            data-srcset="images/black-woman.jpg 2485w, images/black-woman-1280x1141.jpg 1280w, images/black-woman-980x874.jpg 980w, images/black-woman-480x428.jpg 480w"
+                            data-src="images/black-woman.jpg"
                             data-sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2485px, 100vw"
                             class="wp-image-226272 lazyload"
                             src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
@@ -11284,11 +11297,11 @@
                           <div class="et_pb_blurb_content">
                             <div class="et_pb_main_blurb_image">
                               <span class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img width="46" height="46" alt
-                                  data-src="https://www.KaziDa.com/wp-content/uploads/2022/04/company-59-11-1.png"
+                                  data-src="images/company-59-11-1.png"
                                   class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone wp-image-226372 lazyload"
                                   src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
                                     width="46" height="46" alt
-                                    data-src="https://www.KaziDa.com/wp-content/uploads/2022/04/company-59-11-1.png"
+                                    data-src="images/company-59-11-1.png"
                                     class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone wp-image-226372 lazyload"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
                                       width="46" height="46" src="images/company-59-11-1.png" alt
@@ -11327,11 +11340,11 @@
                             <div class="et_pb_main_blurb_image">
                               <a href="mailto:kazidaagecy@gmail.com"><span
                                   class="et_pb_image_wrap et_pb_only_image_mode_wrap"><img width="46" height="46" alt
-                                    data-src="https://www.KaziDa.com/wp-content/uploads/2022/04/company-59-11-3.png"
+                                    data-src="images/company-59-11-3.png"
                                     class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone wp-image-226374 lazyload"
                                     src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
                                       width="46" height="46" alt
-                                      data-src="https://www.KaziDa.com/wp-content/uploads/2022/04/company-59-11-3.png"
+                                      data-src="images/company-59-11-3.png"
                                       class="et-waypoint et_pb_animation_off et_pb_animation_off_tablet et_pb_animation_off_phone wp-image-226374 lazyload"
                                       src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" /><noscript><img
                                         width="46" height="46" src="images/company-59-11-3.png" alt
@@ -11371,21 +11384,21 @@
           <div class="container">
             <ul id="menu-footer-menu" class="bottom-nav">
               <li id="menu-item-31229" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31229">
-                <a href="mailto:info@KaziDa.com">SUPPORT</a>
+                <a href="mailto:info@prisificagency.com">SUPPORT</a>
               </li>
               <li id="menu-item-31230" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31230">
-                <a href="/privacy-policy/">TERMS</a>
+                <a href="#">TERMS</a>
               </li>
               <li id="menu-item-31232" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-31232">
-                <a href="https://www.KaziDa.com/contact/">CONTACT US</a>
+                <a href="#">CONTACT US</a>
               </li>
               <li id="menu-item-31478"
                 class="footer-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-31478">
-                <a target="_blank" rel="noopener" href="https://www.facebook.com/KaziDa">FACEBOOK</a>
+                <a target="_blank" rel="noopener" href="#">FACEBOOK</a>
               </li>
               <li id="menu-item-31486"
                 class="footer-instagram menu-item menu-item-type-custom menu-item-object-custom menu-item-31486">
-                <a target="_blank" rel="noopener" href="https://www.instagram.com/kazida/">INSTAGRAM</a>
+                <a target="_blank" rel="noopener" href="#">INSTAGRAM</a>
               </li>
             </ul>
           </div>
@@ -11395,8 +11408,8 @@
         <div id="footer-bottom">
           <div class="container clearfix">
             <p id="footer-info">
-              Kazi Digital Agency &copy; 2022 | Based in Scarborough & Kitchener,
-              ON, CA
+              Kazi Digital Agency &copy; 2022 | Based in 
+              TO, CA
             </p>
           </div>
           <!-- .container -->
@@ -12822,7 +12835,7 @@
     .et_pb_text_17 {
       line-height: 2em;
       line-height: 2em;
-      background-color: #eeefff;
+      background-color: #f5f6ff;
       border-radius: 10px 10px 10px 10px;
       overflow: hidden;
       padding-top: 30px !important;
@@ -12897,9 +12910,7 @@
     }
 
     .et_pb_section_9.et_pb_section {
-      padding-top: 60px;
       padding-right: 0px;
-      padding-bottom: 60px;
       padding-left: 0px;
       background-color: #16405F !important;
     }
