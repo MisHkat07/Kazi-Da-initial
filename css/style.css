@@ -24,7 +24,7 @@ body [class*="divioverlay-"] {
   height: 100%;
   position: fixed;
   overflow: hidden;
-  background: #ffffff;
+  background: #eeefff;
   z-index: 16777219;
   -webkit-transition: background 0.4s;
   -moz-transition: background 0.4s;
